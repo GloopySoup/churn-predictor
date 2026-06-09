@@ -5,4 +5,4 @@ __pycache__/
 */.ipynb_checkpoints/
 venv/
 .env
-WA_Fn-UseC_-Telco-Customer-Churn.csv
+*.csv
