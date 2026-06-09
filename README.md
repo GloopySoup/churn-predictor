@@ -5,7 +5,6 @@ A machine learning API that predicts whether a customer is likely to churn based
 ## Overview
 This project uses a logistic regression model trained on the Telco Customer Churn dataset. The model is served via a Flask REST API that accepts customer data and returns a churn prediction and probability score.
 
-##Stack
 - Python
 - Scikit-learn (Pipeline, LogisticRegression, ColumnTransformer)
 - Flask
