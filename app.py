@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = joblib.load("../model/churn_model.pkl")
+model = joblib.load(r"C:\Users\games\churn-predictor\model/churn_model.pkl")
 
 @app.route("/predict", methods=["Post"])
 def predict():
